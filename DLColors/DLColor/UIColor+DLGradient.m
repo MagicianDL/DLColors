@@ -41,14 +41,9 @@
     for (UIColor *color in colors) {
         [colorArray addObject:(id)color.CGColor];
     }
-    
     CGGradientRef gradient = CGGradientCreateWithColors(colorspace, (__bridge CFArrayRef)colorArray, NULL);
+    CGContextDrawLinearGradient(context, gradient, CGPointMake(0, 0), CGPointMake(0, size.height), 0);
     
-    CGFloat subHeight = height / colors.count;
-    for (CGFloat y = 0; y < colors.count; y++) {
-        CGContextDrawLinearGradient(context, gradient, CGPointMake(subHeight * y, 0), CGPointMake(subHeight * (y + 1), subHeight), 0);
-    }
-        
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     
     CGGradientRelease(gradient);

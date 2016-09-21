@@ -19,6 +19,7 @@
 		F36513BA1D868298001F8273 /* UIColor+DLRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = F36513B91D868298001F8273 /* UIColor+DLRandom.m */; };
 		F36513BD1D8683D4001F8273 /* UIColor+DLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F36513BC1D8683D4001F8273 /* UIColor+DLColor.m */; };
 		F36513C01D86AF46001F8273 /* UIColor+DLComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F36513BF1D86AF46001F8273 /* UIColor+DLComponent.m */; };
+		F3E9824B1D8C3623006914D3 /* DLGrandientColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E9824A1D8C3623006914D3 /* DLGrandientColorController.m */; };
 		F3F0F1381D879530001BF063 /* DLColorsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F0F1371D879530001BF063 /* DLColorsController.m */; };
 		F3F0F13B1D8795BD001BF063 /* DLColorEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F0F13A1D8795BD001BF063 /* DLColorEntity.m */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,8 @@
 		F36513BC1D8683D4001F8273 /* UIColor+DLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DLColor.m"; sourceTree = "<group>"; };
 		F36513BE1D86AF46001F8273 /* UIColor+DLComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DLComponent.h"; sourceTree = "<group>"; };
 		F36513BF1D86AF46001F8273 /* UIColor+DLComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DLComponent.m"; sourceTree = "<group>"; };
+		F3E982491D8C3623006914D3 /* DLGrandientColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGrandientColorController.h; sourceTree = "<group>"; };
+		F3E9824A1D8C3623006914D3 /* DLGrandientColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGrandientColorController.m; sourceTree = "<group>"; };
 		F3F0F1361D879530001BF063 /* DLColorsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLColorsController.h; sourceTree = "<group>"; };
 		F3F0F1371D879530001BF063 /* DLColorsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLColorsController.m; sourceTree = "<group>"; };
 		F3F0F1391D8795BD001BF063 /* DLColorEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLColorEntity.h; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				F3F0F1371D879530001BF063 /* DLColorsController.m */,
 				F33423171D87DFCB00121931 /* DLImageColorController.h */,
 				F33423181D87DFCB00121931 /* DLImageColorController.m */,
+				F3E982491D8C3623006914D3 /* DLGrandientColorController.h */,
+				F3E9824A1D8C3623006914D3 /* DLGrandientColorController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				F365139F1D867F3A001F8273 /* main.m in Sources */,
 				F334231C1D87F15900121931 /* UIColor+DLGradient.m in Sources */,
 				F36513B71D86813A001F8273 /* UIColor+DLHex.m in Sources */,
+				F3E9824B1D8C3623006914D3 /* DLGrandientColorController.m in Sources */,
 				F307D4731D86EFEC006F3471 /* UIImage+DLColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
